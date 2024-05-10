@@ -6,5 +6,7 @@ for (let n = 1; n <= 100; n++) {
         console.log(n + ' Buzz');
     } else if (n % 3 == 0) {
         console.log(n + ' Fizz');
+    } else {
+        console.log(n + ' Non divisible per 3 o per 5');
     }
 }
